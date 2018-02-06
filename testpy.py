@@ -2,7 +2,8 @@
 import sys
 
 def generation_rapport(dernierIdx):
-    #dernierIdx =130
+    # Fonction permettant de récupérer les résultats de la table matlab et de les intégrer dans un rapport qualité pdf
+	#dernierIdx =130
         # Import des modules externes
     import scipy.io as sio
     import numpy as np
@@ -25,7 +26,7 @@ def generation_rapport(dernierIdx):
     from shutil import copyfile
     from collections import OrderedDict
     from IRMAGE_reporting import PageNumCanvas, ReportLine
-
+	
     Path = '/media/cmaggia/Mesfichiers/MATLAB/'
     NomTraiteur = 'MAGGIA Christophe'
     # os.chdir(Path)
